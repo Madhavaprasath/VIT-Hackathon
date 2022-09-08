@@ -1,0 +1,133 @@
+
+{"intents": [
+    {
+        "tag": "greet",
+        "pattern":["hello","hi","howdy","hey"],
+        "responses":["Hello!","Hi!","Hey!","Howdy!"]
+    },
+    {
+        "tag":"bye",
+        "pattern":["bye","right back","Cya","thankyou"],
+        "responses":["cya",
+            "take care Bye !"
+        ]
+    },
+    {
+        "tag":"office",
+        "pattern":["what is the office timing","when can we contact the office","about the office timing"],
+        "responses":["Office will be available from 9:00 am to 4.30 pm everyday except sundays"]
+    },
+    {
+        "tag":"college",
+        "pattern":["what is the college timing","when can we contact the college","about the college timing"],
+        "responses":["College will be working from 9.00 am to 4.00 pm"]
+    },
+    {
+        "tag":"dress",
+        "pattern":["what is the dress code","what should we wear","is there any dress code"],
+        "responses":["You can wear both casuals or formal dresses, anything of your interest"]
+    },
+    {
+        "tag":"seats",
+        "pattern":["how many seats are there","how many seats are available","how many seats are there in the college"],
+        "responses":["There are 180 seats in Mechanical, ECE department and 240 seats in CSE, IT department"]
+    },
+    {
+        "tag":"transport",
+        "pattern":["how to reach the college","Can we come by our personal transport","is there any college bus transport"],
+        "responses":["You can come by your personal transport, parking facility is available. College bus transport is also available across various locations across chennai"]
+    },
+    {
+        "tag":"bus_fee",
+        "pattern":["how much is the bus fee","fee for college bus","college bus"],
+        "responses":["fee will be calculated according to the distance"]
+    },
+    {
+        "tag":"entrance_exam",
+        "pattern":["Is there any entrance exam for this college","do we have to pass any entrance exam to get into this college"],
+        "responses":["College admission will be provided based on your 12th and 10th mark and JEE mark will be given higher priority"]
+    },
+    {
+        "tag":"Rules",
+        "pattern":["What are the rules and regulations of the college","What are the rules to be followed inside the college"],
+        "responses":["1.Mobile phone should not be used during class hours\n2.Ragging is strictly prohibited\n3.Any kind of physical violence will be punished"]
+    },
+    {
+        "tag":"status",
+        "pattern":["Is this an autonomous college","Is this a Deemed college","Is this a affilated college","Affliation"],
+        "responses":["This is an autonomous college"]
+    },
+    {
+        "tag":"placement",
+        "pattern":["Does this college provide placement training","Is placement training available in this college","will placment training been provided"],
+        "responses":["Placement training will be provided to students by SMART,FacePrep"]
+    },
+
+    {
+        "tag":"Course",
+        "pattern":["How many courses are there in this college","What are the different courses available"],
+        "responses":["There are 4 diferent courses available in our college\n  1. CSE\n  2. IT\n  3.ECE\n  4.Mechanical"]
+    },
+    {
+        "tag":"Faculty",
+        "pattern":["Are the faculties qualified enough","What are the qualifications of the faculties","How much talented are the faculties"],
+        "responses":["All of our faculties have minimum qualification of M.tech and many of them have Phd degree with them"]
+    },
+    {
+        "tag":"Subjects",
+        "pattern":["How many subjects will be there in each semester","Total no of subjects per semester"],
+        "responses":["In each semester there will be 6 theory subjects and 3 practical subject"]
+    },
+    {
+        "tag":"end",
+        "pattern":["Thank you","Bye","Thanks"],
+        "responses":["Welcome","Have a good day!"]
+    },
+    {
+        "tag":"Further_details",
+        "pattern":["Can i contact the office","I require more information","I need something else","further info","contact info"],
+        "responses":["For further details contact: 0123456789"]
+    },
+    {
+        "tag":"Scholarship",
+        "pattern":["Will scholarship be provided","Does the college provide scholarship for students"],
+        "responses":["Scholarship will be provided to students considering the following\n  1.First graduate\n  2.Annual income of the family\n  3.Marks attained in hsc"]
+    },
+    {
+        "tag":"College_rank",
+        "pattern":["What is the rank of the college","What is the NIRF rank of the college",""],
+        "responses":["Our college is ranked 7th in the NIRF ranking"]
+
+    },
+    {
+        "tag":"Canteen",
+        "pattern":["Is canteen available in this college","Does this college have canteen"],
+        "responses":["Yes, we have our own canteen, were foods will be prepared in a very hygiene manner"]
+    },
+    {
+        "tag":"Ragging",
+        "pattern":["Is this college free from ragging","Will ragging takes place in this college"],
+        "responses":["Our college is completely free from ragging, Students will be provided Anti-Ragging commitee number in their ID-card"]
+    },
+    {
+        "tag":"Sports",
+        "pattern":["What are the sports available in this college","Different sports available in this college"],
+        "responses":["Our college have various sports like Cricket, Football, Tennis, Badminton, Volleyball and many indoor games"]
+    },
+    {
+        "tag":"appointment",
+        "pattern":["can i get a appointment","appointment"],
+        "responses":["there are these seats available in these dates"]
+    },
+    {
+        "tag":"appreciation",
+        "pattern":["nice","great","good job","great job","super","keep it up"],
+        "responses":["Thank you "]
+    },
+    {
+        "tag":"easteregg1",
+        "pattern":["tell me a Joke","Say something funny"],
+        "responses":["Your life"]
+    }
+]
+}
